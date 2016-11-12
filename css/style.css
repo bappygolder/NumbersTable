@@ -17,6 +17,12 @@ Global CSS
 /*--------------------------------------------------
 Structure
 --------------------------------------------------*/
+.main-wrapper {
+	max-width: 500px;
+	margin: auto;
+	padding: 10%;
+	/*padding: 50px;*/ /*good for bigger screen*/
+}
 
 
 /*end: Structure
@@ -28,7 +34,9 @@ Structure
 /*--------------------------------------------------
 Colors
 --------------------------------------------------*/
-
+.main-wrapper {
+	background:#ECEAEA;
+}
 
 /*end: Colors
 --------------------------------------------------*/

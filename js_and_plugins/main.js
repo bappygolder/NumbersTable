@@ -1,1 +1,1 @@
-$(".animsition").animsition();
+$(".animsition").animsition();	
