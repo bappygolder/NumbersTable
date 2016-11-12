@@ -24,6 +24,26 @@ Structure
 	/*padding: 50px;*/ /*good for bigger screen*/
 }
 
+.question_mark{
+	    width: 104%;
+	float: right;
+	padding-left: 96%;
+}
+
+button, input {
+	width: 200px;
+    height: 32px;
+    font-size: 14px;
+    border: none;
+}
+
+input {
+	margin-bottom: 5px;
+	padding:5px;
+	text-align: center;
+}
+
+
 
 /*end: Structure
 --------------------------------------------------*/
@@ -37,6 +57,16 @@ Colors
 .main-wrapper {
 	background:#ECEAEA;
 }
+
+input {
+	color:#666565;
+}
+
+button {
+	background: #28ca0c;
+    color: white;
+}
+
 
 /*end: Colors
 --------------------------------------------------*/
