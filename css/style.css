@@ -20,7 +20,6 @@ Structure
 .main-wrapper {
 	max-width: 500px;
 	margin: auto;
-	padding: 10%;
 	/*padding: 50px;*/ /*good for bigger screen*/
 }
 
@@ -28,6 +27,14 @@ Structure
 	    width: 104%;
 	float: right;
 	padding-left: 96%;
+}
+
+.header_wrapper {
+	/*background:#0B73EF; */	/*test*/
+	
+    max-width: 265px;
+    padding: 10px 10%;
+    margin: 0 auto;
 }
 
 button, input {
@@ -43,6 +50,11 @@ input {
 	text-align: center;
 }
 
+.num_table{
+    /*background: rebeccapurple;*/  	/*test*/
+    max-width: 140px;
+    margin: 0 auto;
+}
 
 
 /*end: Structure
@@ -54,12 +66,17 @@ input {
 /*--------------------------------------------------
 Colors
 --------------------------------------------------*/
-.main-wrapper {
+.main-wrapper,
+header{
 	background:#ECEAEA;
 }
 
 input {
 	color:#666565;
+}
+
+p {
+	color:#707070;
 }
 
 button {
