@@ -69,6 +69,13 @@ Colors
 .main-wrapper,
 header{
 	background:#ECEAEA;
+	transition: 1s;	
+
+}
+
+.is-sticky header {
+	background: rgba(31, 82, 161, 0.92);
+	
 }
 
 input {
