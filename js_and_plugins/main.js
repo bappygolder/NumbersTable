@@ -16,14 +16,32 @@ $("header").on('sticky-end', function(){
 });
 //end: hide & show...
 
-//build and show the numbers table
+//change input field design on hover
+$("input").focus(function(){
+	"use strict";
+	$(this).css({
+		'border' : '1px solid  rgba(88, 87, 255, 0.5)'			
+	});
+});
+
+$("input").blur(function(){
+	"use strict";
+	$(this).css({
+		'border' : '0px solid'				
+	});
+});
+
+/*----------------------------------------------------
+build and show the numbers table
+----------------------------------------------------*/
 
 var num;					//holds the number of the num table
 num = 2;					//seeding num for testing
 var num_table_template;		//holds numbers table
 var time_value_start = 1;	//hold the number that num will be timed to
 var max_time_value_start;	//hold value up to which the numbers table will be shown
-max_time_value_start = 50;	//seeding for test
+max_time_value_start = 555;	//seeding for test
+
 
 //construct HTML for numbers table
 function template_of_num_table(num, times_num){
@@ -39,8 +57,10 @@ function template_of_num_table(num, times_num){
 	return num_table_template;
 }
 
+
 //test constructed HTML
 //$(".num_table_view").html(template_of_num_table(num, time_value_start));
+
 
 function show_full_num_table(){
 	"use strict";
@@ -52,11 +72,18 @@ function show_full_num_table(){
 		$(".num_table_view").append(template_of_num_table(num, time_value_start));
 		//increase times value
 		time_value_start++;
+		
 	} //end: for
-
 } //end: show_full_num_table
+
 
 //show the full numbers table
 show_full_num_table();
 
+/*----------------------------------------------------
+end: build and show the numbers table
+----------------------------------------------------*/
+
+
 //show tooltip with help options
+//hide and show the button on input focus

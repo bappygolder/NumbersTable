@@ -48,6 +48,7 @@ input {
 	margin-bottom: 5px;
 	padding:5px;
 	text-align: center;
+	border: 0px solid;
 }
 
 .num_table_view{
