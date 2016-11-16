@@ -2,7 +2,11 @@
 $(".animsition").animsition();
 
 //stick the input section to the top
-$("header").sticky();
+$("header").sticky({
+  topSpacing:0,
+  getWidthFrom: '.main-wrapper',	//controls responsiveness of sticky eliment
+  responsiveWidth: true				//controls responsiveness of sticky eliment
+});
 
 //hide & show help option when user scrolls
 $("header").on('sticky-start', function(){
