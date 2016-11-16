@@ -17,7 +17,49 @@ Global CSS
 /*--------------------------------------------------
 Structure
 --------------------------------------------------*/
-
+.main-wrapper{
+	width:100%;
+}
+.animsition{
+	width:85%;
+	max-width:650px;
+	margin:0px auto;
+}
+.animsition img{
+	float:right;
+	width: 50px;
+    height: 50px;
+    clear: both;
+    margin: 50px 0px;
+	
+}
+.animsition form input{
+	width: 100%;
+    padding: 30px 40px;
+    margin-bottom: 20px;
+}
+.animsition-link{
+	width:100%;
+	text-align:center;
+	padding:30px;
+	box-shadow: 0px 1px 6px -1px #000;
+	border:none;
+}
+.animsition-numbers{
+	padding-top:86px;
+	padding-left:40px;
+}
+.more-link p{
+	padding-left:70px;
+	 display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.more-text-link a{
+	    padding-bottom: 50px;
+}
 
 /*end: Structure
 --------------------------------------------------*/
@@ -28,7 +70,18 @@ Structure
 /*--------------------------------------------------
 Colors
 --------------------------------------------------*/
-
+.animsition form input{
+	color:#d9d9d9;
+	border:1px solid #d0d0d0;
+}
+.animsition-link{
+	background-color:#3d87de;
+	border-color:#3d87de;
+	color:#fff;
+}
+.animsition-numbers p, .more-link p, .more-text-link a{
+	color:#787878;
+}
 
 /*end: Colors
 --------------------------------------------------*/
@@ -39,8 +92,23 @@ Colors
 /*--------------------------------------------------
 Fonts & Typography
 --------------------------------------------------*/
-
-
+.animsition form input{
+	font-size:35px;
+	font-family: 'Open Sans', sans-serif;
+	font-style:italic;
+	letter-spacing: 3px;
+}
+.animsition-link, .more-text-link a{
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+.animsition-numbers p, .more-link p{
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 55px;
+}
 /*end: Fonts & Typography
 --------------------------------------------------*/
 

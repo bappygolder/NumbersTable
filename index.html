@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/normalize.css" type="text/css"> <!--minified normzlized.css-->
 	<link rel="stylesheet" href="js_and_plugins/animsition/animsition.css"> <!--Animsition file-->
 	<link rel="stylesheet" href="css/style.css" type="text/css"> <!--main css-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i" rel="stylesheet">
 	    
 	<!-- IE Fix -->	
 		<!--[if lt IE 9]>
@@ -16,16 +17,17 @@
 	
 </head>
 <body>
+  <div class="main-wrapper">
 	<div class="animsition">
 
-		<img src="Design/assets/Question Mark.png" alt="help button"/>
+		<img src="Design/assets/Question Mark.png" alt="help button" />
 
 		<form>
-			<input type="text">
+			<input type="text" placeholder="Type Numbers (i.e 2, 8 etc)">
 			<br>
 			<button class="animsition-link" name="submit_button" >SHOW TABLE</button>
 		</form>
-
+<div class="animsition-numbers">
 		<p>2 x 1 = 2</p>
 		<p>2 x 1 = 2</p>
 		<p>2 x 1 = 2</p>
@@ -46,7 +48,20 @@
 		<p>2 x 1 = 2</p>
 		<p>2 x 1 = 2</p>
 		<p>2 x 1 = 2</p>
-
+        <div class="more-link">
+              <p>.</p>
+              <p>.</p>
+              <p>.</p>
+              <p>.</p>
+              <p>.</p>
+              
+        </div><!--end of div more link-->
+        
+        <div class="more-text-link">
+            <a href="#">MORE</a>
+  
+        </div><!--end of div more text link-->
+</div><!--end of div animsition-numbers-->
 
 		<!--JavaScript links-->
 		<script src="js_and_plugins/jquery-3.1.1.min.js"></script> <!--jQuery-->
@@ -54,5 +69,6 @@
 		<script src="js_and_plugins/main.js"></script> <!--main JS file-->
 	
 	</div> <!--end: animsition--> 
+    </div><!--end of div main-wrapper-->
 </body>
 </html>
